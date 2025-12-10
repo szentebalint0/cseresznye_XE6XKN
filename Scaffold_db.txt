@@ -1,0 +1,1 @@
+Scaffold-DbContext "Data Source=tcp:pcshopserver.database.windows.net,1433;Initial Catalog=PcShop;User ID=szentebalint;Password=Password123;Encrypt=True;TrustServerCertificate=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir PcShopModels
