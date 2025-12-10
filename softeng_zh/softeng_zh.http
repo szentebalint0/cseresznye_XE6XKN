@@ -1,0 +1,6 @@
+@softeng_zh_HostAddress = http://localhost:5165
+
+GET {{softeng_zh_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

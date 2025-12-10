@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cseresznye_XE6XKN", "softeng_zh\cseresznye_XE6XKN.csproj", "{45385CD1-E2AF-4097-87FD-BF07EFF31111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cseresznye_Form", "softeng_zh_form\cseresznye_Form.csproj", "{0F7FA4CC-FA5C-451D-895B-C72E8AF46F40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45385CD1-E2AF-4097-87FD-BF07EFF31111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45385CD1-E2AF-4097-87FD-BF07EFF31111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45385CD1-E2AF-4097-87FD-BF07EFF31111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45385CD1-E2AF-4097-87FD-BF07EFF31111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7FA4CC-FA5C-451D-895B-C72E8AF46F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7FA4CC-FA5C-451D-895B-C72E8AF46F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7FA4CC-FA5C-451D-895B-C72E8AF46F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7FA4CC-FA5C-451D-895B-C72E8AF46F40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97BB60CF-60FC-48AA-AC17-64A6B45355F9}
+	EndGlobalSection
+EndGlobal
