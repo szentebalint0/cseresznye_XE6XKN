@@ -42,6 +42,9 @@ namespace softeng_zh.Controllers
 
             PcShopContext context = new();
 
+            component.Category = null;
+            component.OrderItems = null;
+
             context.Add(component);
             context.SaveChanges();
             return Ok(component);
@@ -79,6 +82,7 @@ namespace softeng_zh.Controllers
         {
 
             PcShopContext context = new();
+
 
             var component = (from x in context.Components
                              where x.ComponentId == id

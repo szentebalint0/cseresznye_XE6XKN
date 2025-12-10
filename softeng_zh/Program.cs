@@ -27,9 +27,11 @@ namespace softeng_zh
 
             app.UseAuthorization();
 
-            app.UseStaticFiles();
+           
 
             app.UseDefaultFiles();
+
+            app.UseStaticFiles();
 
             app.MapControllers();
 
