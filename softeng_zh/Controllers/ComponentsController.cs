@@ -42,12 +42,18 @@ namespace softeng_zh.Controllers
 
             PcShopContext context = new();
 
-            component.Category = null;
-            component.OrderItems = null;
+            Component newComponent = new()
+            {
+                Name = component.Name,
+                Brand = component.Brand,
+                Price = component.Price,
+                Stock = component.Stock,
+                CategoryId = component.CategoryId
+            };
 
-            context.Add(component);
+            context.Add(newComponent);
             context.SaveChanges();
-            return Ok(component);
+            return Ok(newComponent);
 
         }
 

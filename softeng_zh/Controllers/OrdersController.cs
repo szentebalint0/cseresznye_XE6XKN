@@ -56,5 +56,18 @@ namespace softeng_zh.Controllers
 
         }
 
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            PcShopContext context = new();
+            var order = (from x in context.OrderHeaders
+                         where x.OrderId == id
+                         select x).FirstOrDefault();
+            if (order == null) return NotFound("No order with id of" + id);
+            context.OrderHeaders.Remove(order);
+            context.SaveChanges();
+            return Ok();
+        }
+
     }
 }

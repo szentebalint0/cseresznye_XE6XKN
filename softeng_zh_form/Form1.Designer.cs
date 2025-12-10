@@ -35,7 +35,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(22, 47);
+            button1.Location = new Point(22, 57);
             button1.Name = "button1";
             button1.Size = new Size(87, 23);
             button1.TabIndex = 0;
@@ -54,7 +54,7 @@
             // button2
             // 
             button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            button2.Location = new Point(22, 495);
+            button2.Location = new Point(12, 495);
             button2.Name = "button2";
             button2.Size = new Size(97, 44);
             button2.TabIndex = 2;
